@@ -1,0 +1,230 @@
+---
+name: Clinical Clarity
+colors:
+  surface: '#faf8ff'
+  surface-dim: '#d2d9f4'
+  surface-bright: '#faf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f2f3ff'
+  surface-container: '#eaedff'
+  surface-container-high: '#e2e7ff'
+  surface-container-highest: '#dae2fd'
+  on-surface: '#131b2e'
+  on-surface-variant: '#3f4850'
+  inverse-surface: '#283044'
+  inverse-on-surface: '#eef0ff'
+  outline: '#707881'
+  outline-variant: '#bfc7d2'
+  surface-tint: '#006398'
+  primary: '#006194'
+  on-primary: '#ffffff'
+  primary-container: '#007bb9'
+  on-primary-container: '#fdfcff'
+  inverse-primary: '#93ccff'
+  secondary: '#006a61'
+  on-secondary: '#ffffff'
+  secondary-container: '#86f2e4'
+  on-secondary-container: '#006f66'
+  tertiary: '#00628d'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#007cb1'
+  on-tertiary-container: '#fcfcff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#cce5ff'
+  primary-fixed-dim: '#93ccff'
+  on-primary-fixed: '#001d31'
+  on-primary-fixed-variant: '#004b73'
+  secondary-fixed: '#89f5e7'
+  secondary-fixed-dim: '#6bd8cb'
+  on-secondary-fixed: '#00201d'
+  on-secondary-fixed-variant: '#005049'
+  tertiary-fixed: '#c9e6ff'
+  tertiary-fixed-dim: '#89ceff'
+  on-tertiary-fixed: '#001e2f'
+  on-tertiary-fixed-variant: '#004c6e'
+  background: '#faf8ff'
+  on-background: '#131b2e'
+  surface-variant: '#dae2fd'
+typography:
+  display-hero:
+    fontFamily: Inter
+    fontSize: 44px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.025em
+  display-hero-mobile:
+    fontFamily: Inter
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 30px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 26px
+    letterSpacing: 0em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.005em
+  label-lg:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.015em
+  label-caps:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system establishes an environment of clinical precision married to approachable SaaS simplicity. Designed for an AI-powered healthcare appointment platform, the interface must inspire immediate trust, alleviate patient anxiety, and reduce cognitive load during high-intent scheduling flows.
+
+The design philosophy combines **Clean Healthcare Minimalism** with high-utility **Modern SaaS ergonomics**. It features pristine white canvases, soft architectural surfaces, crystalline medical blues, and restorative teal accents. Typography is structured and unobtrusive, while micro-surfaces rely on subtle pill geometry, gentle layered elevation, and hairline borders to convey institutional competence without bureaucratic friction.
+
+## Colors
+
+The color system delivers high legibility and reassurance through a strict light-mode palette:
+
+- **Primary (`#0284C7`) & Sky Accent (`#0EA5E9`)**: The core medical blue anchor. Conveys clinical reliability, technical intelligence, and calm authority. Used for primary calls-to-action, key selected states, active dates, and AI diagnostic highlights.
+- **Secondary (`#0D9488`) & Teal Accent (`#14B8A6`)**: Restorative botanical teal. Communicates wellness, positive outcomes, and automated triage confirmations. Applied to confirmation chips, available time-slot tags, and success notifications.
+- **Neutrals & Surfaces**:
+  - `Base Canvas`: Pure clinical white (`#FFFFFF`).
+  - `Subtle Surface`: Ice slate (`#F8FAFC`) for secondary panels, schedule tracks, and disabled states.
+  - `Hover & Structural Neutral`: Cool slate tint (`#F1F5F9`) for interactive cell backgrounds and segmented controls.
+  - `Borders & Separators`: Hairline slate (`#E2E8F0`) to provide crisp, quiet boundaries.
+- **Text & Content**:
+  - Primary text: Deep slate (`#0F172A`) for high-contrast, effortless legibility.
+  - Secondary / Supporting: Mid-slate (`#64748B`) for metadata, sub-labels, and doctor credentials.
+  - Muted / Placeholder: Neutral slate (`#94A3B8`).
+
+## Typography
+
+Typography relies exclusively on `Inter` to project neutrality, clarity, and precision. 
+
+Headlines utilize slight negative tracking (`-0.02em` to `-0.01em`) and medium/semibold weights to anchor complex forms and doctor profiles. Body text maintains open line heights (`1.5` to `1.6`) to ensure high readability of medical histories, appointment instructions, and triage summaries. System labels and metadata utilize uppercase tracking or medium-weight micro-labels for rapid scanning across calendars and time slots.
+
+## Layout & Spacing
+
+The layout is built upon an 8pt modular scale deployed across a 12-column responsive fluid grid system:
+
+- **Desktop (1280px+)**: 12 columns with `1.5rem` gutters and `2rem` outer container padding (max container width: 1200px for booking flows, 1440px for provider portals).
+- **Tablet (768px – 1023px)**: 8 columns with `1rem` gutters and `1.5rem` outer margins. Multi-column appointment schedulers collapse from horizontal day-views to vertical list flows.
+- **Mobile (<768px)**: 4 columns with `1rem` margins and gutters. Calendars switch to horizontal scroll carousels for date selection and single-column stacked physician cards.
+- **Density**: Booking widgets and clinic calendars preserve generous internal padding (`space-md` to `space-lg`) to prevent mis-taps on medical triage selections and doctor slot buttons.
+
+## Elevation & Depth
+
+Visual hierarchy uses clean atmospheric depth rather than heavy drop shadows, reinforcing clinical sterility and digital agility:
+
+- **Hairline Rest (`Flat`)**: All default cards, summary modules, and inactive calendar days sit directly on `#FFFFFF` or `#F8FAFC`, enclosed by a 1px border in `#E2E8F0`.
+- **Low Elevation (`shadow-sm`)**: Used for persistent booking sidebars, floating doctor chips, and search input states: `0 1px 3px 0 rgba(15, 23, 42, 0.05), 0 1px 2px -1px rgba(15, 23, 42, 0.03)`.
+- **Medium Elevation (`shadow-md`)**: Used for selected appointment cards, floating action drawers, and modal sheets: `0 4px 6px -1px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.04)`.
+- **Surface Layering**: Modals and AI chat drawers deploy subtle backdrop blurs (`backdrop-blur-md` with `rgba(255, 255, 255, 0.8)`) backed by a faint blue-tinted overlay (`rgba(15, 23, 42, 0.2)`).
+
+## Shapes
+
+The design system incorporates a dual shape hierarchy: structured containers pair with pill-shaped interactive micro-elements.
+
+- **Primary Cards & Modals**: Utilize `rounded-xl` (1rem / 16px) for inner booking cards and `rounded-2xl` (1.5rem / 24px) for prominent dashboard containers, AI summary cards, and calendar viewports.
+- **Controls & Secondary Elements**: Standard form inputs, dropdowns, and button sets use base `rounded-lg` (0.5rem / 8px to 0.75rem / 12px).
+- **Pill Geometry**: Time slots, status chips, doctor specialty tags, and AI prompt bubbles adopt full pill rounding (`rounded-full` / 9999px) to soften technical interactions and signal distinct tap targets.
+
+## Components
+
+### Buttons
+- **Primary**: Solid medical blue (`#0284C7`), text white, `rounded-lg` or `rounded-full` for CTA paths. On hover: `#0369A1`. Focus: `0 0 0 3px rgba(14, 165, 233, 0.25)`.
+- **Secondary / Ghost**: Pure white background with `#E2E8F0` border, `#0F172A` text. On hover: `#F8FAFC` background with `#0284C7` border and text.
+- **Teal Confirmation**: Solid `#0D9488` with white text, reserved for final "Confirm Appointment" state. Hover: `#0F766E`.
+
+### Chips & Badges
+- **Status Pills**: Pill-shaped (`rounded-full`), `space-xs` vertical padding, `space-sm` horizontal padding.
+  - *Confirmed / Available*: Background `#CCFBF1`, text `#0F766E`.
+  - *In-Review / AI Suggestion*: Background `#E0F2FE`, text `#0369A1`.
+  - *Unavailable / Past*: Background `#F1F5F9`, text `#64748B`.
+- **Doctor Specialty Chips**: Background `#F8FAFC`, border `#E2E8F0`, text `#0F172A`, font size `label-md`.
+
+### Cards & Appointment Blocks
+- Background `#FFFFFF`, 1px solid border `#E2E8F0`, rounded with `rounded-xl` or `rounded-2xl`.
+- Padding: `space-lg` (24px).
+- Interactive Doctor Card: Light hover elevation (`shadow-md`), subtle border color transition to `#0EA5E9`. Includes physician avatar with online status indicator, verified badge, rating tag, and available time slot pill rack.
+
+### Inputs & Selectors
+- Background `#FFFFFF`, border `#E2E8F0`, text `#0F172A`, placeholder `#94A3B8`.
+- Height: 44px (touch friendly). Focus border: `#0284C7` with a 3px ring in `rgba(2, 132, 199, 0.12)`.
+- AI Natural Language Input: Extended height input with trailing teal spark icon (`#0D9488`), subtle glass effect (`bg-white/90`), and rounded-2xl geometry.
+
+### Checkboxes & Radios
+- Size: 18px x 18px. Border: 1.5px solid `#CBD5E1`.
+- Checked State: Solid `#0284C7` with white checkmark icon or radio dot. Focus ring: `rgba(2, 132, 199, 0.2)`.
+
+### Time-Slot Grid Matrix
+- Discrete buttons (`h-10`, `px-4`, `rounded-full`, text `label-md`).
+- Default: Border `#E2E8F0`, background `#FFFFFF`, text `#0F172A`.
+- Selected: Background `#0284C7`, text `#FFFFFF`, border `#0284C7`, `shadow-sm`.
+- AI Recommended Slot: Border 1.5px solid `#0D9488`, faint teal background tint (`#F0FDFA`), with a micro badge denoting "Fastest Care".
